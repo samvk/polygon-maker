@@ -1,0 +1,15 @@
+#up, #down {
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+i {
+  position: relative;
+  display: inline;
+}
+
+h1, h3 {
+  font-family: 'ABeeZee', sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
