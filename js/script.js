@@ -13,7 +13,13 @@ function makePolygon() {
 	String.prototype.reverse = function () {
 		return this.split("").reverse().join("");
 	};
+	
+	var intAngle = ((numberOfSides - 2) * 180)/numberOfSides;
 
+	var longNum = intAngle.toString().substr(0,12) + "°";	
+
+	$("#n").text(longNum);
+	
 	var newNumMaker = (function () {
 		var reverseString = numberOfSides.toString().reverse();
 		var newNum = "";
